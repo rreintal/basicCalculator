@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="460.0" styleClass="main" stylesheets="@style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kalkulaatornuppudega.calculatorController">
+   <children>
+      <HBox alignment="CENTER" layoutY="202.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="460.0">
+         <children>
+            <Button blendMode="COLOR_DODGE" cache="true" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#clickOnNumberButton" prefHeight="85.0" prefWidth="95.0" styleClass="inputButtons" stylesheets="@style.css" text="7">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="11.0" left="6.0" right="6.0" />
+               </HBox.margin></Button>
+            <Button blendMode="COLOR_DODGE" cache="true" layoutX="10.0" layoutY="10.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#clickOnNumberButton" prefHeight="85.0" prefWidth="95.0" styleClass="inputButtons" stylesheets="@style.css" text="8">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="11.0" left="6.0" right="6.0" />
+               </HBox.margin></Button>
+            <Button blendMode="COLOR_DODGE" cache="true" layoutX="10.0" layoutY="10.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#clickOnNumberButton" prefHeight="85.0" prefWidth="95.0" styleClass="inputButtons" stylesheets="@style.css" text="9">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="11.0" left="6.0" right="6.0" />
+               </HBox.margin></Button>
+            <Button blendMode="COLOR_DODGE" cache="true" layoutX="64.0" layoutY="10.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#divide" prefHeight="85.0" prefWidth="95.0" styleClass="inputButtons" stylesheets="@style.css" text="/">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="11.0" left="6.0" right="6.0" />
+               </HBox.margin></Button>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutY="302.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="460.0">
+         <children>
+            <Button blendMode="COLOR_DODGE" cache="true" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#clickOnNumberButton" prefHeight="85.0" prefWidth="95.0" styleClass="inputButtons" stylesheets="@style.css" text="4">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="11.0" left="6.0" right="6.0" />
+               </HBox.margin>
+            </Button>
+            <Button blendMode="COLOR_DODGE" cache="true" layoutX="10.0" layoutY="10.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#clickOnNumberButton" prefHeight="85.0" prefWidth="95.0" styleClass="inputButtons" stylesheets="@style.css" text="5">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="11.0" left="6.0" right="6.0" />
+               </HBox.margin>
+            </Button>
+            <Button blendMode="COLOR_DODGE" cache="true" layoutX="10.0" layoutY="10.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#clickOnNumberButton" prefHeight="85.0" prefWidth="95.0" styleClass="inputButtons" stylesheets="@style.css" text="6">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="11.0" left="6.0" right="6.0" />
+               </HBox.margin>
+            </Button>
+            <Button blendMode="COLOR_DODGE" cache="true" layoutX="64.0" layoutY="10.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#multiply" prefHeight="85.0" prefWidth="95.0" styleClass="inputButtons" stylesheets="@style.css" text="*">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="11.0" left="6.0" right="6.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutY="402.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="460.0">
+         <children>
+            <Button blendMode="COLOR_DODGE" cache="true" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#clickOnNumberButton" prefHeight="85.0" prefWidth="95.0" styleClass="inputButtons" stylesheets="@style.css" text="3">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="11.0" left="6.0" right="6.0" />
+               </HBox.margin>
+            </Button>
+            <Button blendMode="COLOR_DODGE" cache="true" layoutX="10.0" layoutY="10.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#clickOnNumberButton" prefHeight="85.0" prefWidth="95.0" styleClass="inputButtons" stylesheets="@style.css" text="2">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="11.0" left="6.0" right="6.0" />
+               </HBox.margin>
+            </Button>
+            <Button blendMode="COLOR_DODGE" cache="true" layoutX="10.0" layoutY="10.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#clickOnNumberButton" prefHeight="85.0" prefWidth="95.0" styleClass="inputButtons" stylesheets="@style.css" text="1">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="11.0" left="6.0" right="6.0" />
+               </HBox.margin>
+            </Button>
+            <Button blendMode="COLOR_DODGE" cache="true" layoutX="64.0" layoutY="10.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#add" prefHeight="85.0" prefWidth="95.0" styleClass="inputButtons" stylesheets="@style.css" text="+">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="11.0" left="6.0" right="6.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutY="502.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="460.0">
+         <children>
+            <Button blendMode="COLOR_DODGE" cache="true" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#clickOnNumberButton" prefHeight="85.0" prefWidth="95.0" styleClass="inputButtons" stylesheets="@style.css" text="0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="11.0" left="6.0" right="6.0" />
+               </HBox.margin>
+            </Button>
+            <Button blendMode="COLOR_DODGE" cache="true" layoutX="10.0" layoutY="10.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#resetData" prefHeight="85.0" prefWidth="95.0" styleClass="inputButtons" stylesheets="@style.css" text="DEL">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="11.0" left="6.0" right="6.0" />
+               </HBox.margin>
+            </Button>
+            <Button blendMode="COLOR_DODGE" cache="true" layoutX="10.0" layoutY="10.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#equalsButton" prefHeight="85.0" prefWidth="95.0" styleClass="inputButtons" stylesheets="@style.css" text="=">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="11.0" left="6.0" right="6.0" />
+               </HBox.margin>
+            </Button>
+            <Button blendMode="COLOR_DODGE" cache="true" layoutX="64.0" layoutY="10.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#subtract" prefHeight="85.0" prefWidth="95.0" styleClass="inputButtons" stylesheets="@style.css" text="-">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="11.0" left="6.0" right="6.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <Pane layoutX="37.0" layoutY="59.0" prefHeight="107.0" prefWidth="386.0">
+         <children>
+            <Label fx:id="answerPrompt" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="5.0" layoutY="3.0" prefHeight="100.0" prefWidth="380.0" style="-fx-font-size: 50;" styleClass="answerField" text="0.0" textFill="WHITE">
+               <font>
+                  <Font size="50.0" />
+               </font>
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</Pane>

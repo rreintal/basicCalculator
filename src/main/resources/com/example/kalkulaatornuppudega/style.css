@@ -1,0 +1,24 @@
+.main{
+      -fx-background-color:linear-gradient(to bottom right, #FF7F50, #6A5ACD);
+      -fx-background-radius: 15 15 25 25;
+      opacity: 0.8;
+      }
+
+.inputButtons{
+    -fx-background-radius: 50%;
+    -fx-background-color: gray;
+    opacity: 0.3;
+    -fx-font-size: 30px;
+}
+
+.inputButtons:hover{
+    -fx-background-color:linear-gradient(to bottom right, #FF7F50, #6A5ACD);
+
+}
+
+.answerField {
+    -fx-background-color:linear-gradient(to bottom left, #FF7F50, #6A5ACD);
+    -fx-font-color: white;
+    -fx-background-radius: 15;
+    -fx-font-size: 50;
+}
